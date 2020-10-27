@@ -1,12 +1,10 @@
 /**
- * ASIGNACION POR REFERENCIA
+ * CONSTANTES
  */
+// Debe ir en mayusculas
+// Se debe de incializar al incio
+// no se puede reasignar
 
-let profesor = "Angel"
-let alumno = profesor
-
-profesor = "Miguel"
-alumno = "Fernando"
-
-console.log(profesor)
-console.log(alumno)
+const NOMBRE_EMPRESA = "EDteam"
+const SITIO_WEB = "https://edteam.com"
+const PI = 3.14
