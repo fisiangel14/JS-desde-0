@@ -1,16 +1,17 @@
 /**
- * TIPOS DE DATOS
+ * VARIABLES
  */
 
-// Para saber el tipo de datos  --> typeod dato 
- // ARRAY - coleccion de datos
-console.log(["Angel","Miguel","Fernando"])
+// Declaracion
+let alumno
 
-// OBJETOS
-console.log({
-    nombre: "angel",
-    edad: 15
-})
+// Asignacion
+alumno = "Angel Alegre"
 
-// Dato NULL null
-console.log(typeof null)
+// Declaracion y asignacion
+let profesor = "Miguel Alegre"
+
+// Reasignacion
+profesor = "Fernando Alegre"
+
+console.log(profesor)
