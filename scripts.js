@@ -2,14 +2,15 @@
  * TIPOS DE DATOS
  */
 
-// NUMBER - Para todos los numeros, enteros y decimales
+// Para saber el tipo de datos  --> typeod dato 
+ // ARRAY - coleccion de datos
+console.log(["Angel","Miguel","Fernando"])
 
-// STRING - Cadena de TExto
+// OBJETOS
+console.log({
+    nombre: "angel",
+    edad: 15
+})
 
-// BOOLEAN - true or false
-
-console.log(typeof 50)
-console.log(typeof "Angel Alegre")
-console.log(typeof true)
-
-
+// Dato NULL null
+console.log(typeof null)
