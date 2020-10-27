@@ -1,20 +1,15 @@
-// Comentario en una linea
-
-// Comentario multilinea
-/*
-Esto es un comentario de una linea
-Y en las siguientes lineas 
-tambien abra otros mas
-*/
-
-// Comentario mas estetico
 /**
- * Esto es un
- * Comentario con 
- * asteristicos
+ * TIPOS DE DATOS
  */
 
- // Para comentar bloques --> ctrl + }
-// var i = 0;
-// i++;
-// console.log(i);
+// NUMBER - Para todos los numeros, enteros y decimales
+
+// STRING - Cadena de TExto
+
+// BOOLEAN - true or false
+
+console.log(typeof 50)
+console.log(typeof "Angel Alegre")
+console.log(typeof true)
+
+
