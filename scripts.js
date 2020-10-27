@@ -1,17 +1,12 @@
 /**
- * VARIABLES
+ * ASIGNACION POR REFERENCIA
  */
 
-// Declaracion
-let alumno
+let profesor = "Angel"
+let alumno = profesor
 
-// Asignacion
-alumno = "Angel Alegre"
-
-// Declaracion y asignacion
-let profesor = "Miguel Alegre"
-
-// Reasignacion
-profesor = "Fernando Alegre"
+profesor = "Miguel"
+alumno = "Fernando"
 
 console.log(profesor)
+console.log(alumno)
