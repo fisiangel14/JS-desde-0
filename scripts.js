@@ -25,12 +25,27 @@
  *          +
  */
 
-let nombre = "Angel Eduardo"
-let apellido = "Alegre Quispe"
+// let nombre = "Angel Eduardo"
+// let apellido = "Alegre Quispe"
 
-let nombreCompleto = nombre + " " + apellido
+// let nombreCompleto = nombre + " " + apellido
 
-console.log(nombreCompleto)
+// console.log(nombreCompleto)
 
-let nickname = `Mi nombre es: ${nombre} y mi apellido es ${apellido}`
-console.log(nickname)
+// let nickname = `Mi nombre es: ${nombre} y mi apellido es ${apellido}`
+// console.log(nickname)
+
+/**
+ * OPERADORES DE COMPARACION
+ */
+
+ // ES IGUAL                   ==   (Compara solo el valor)
+ // ES ESTRCTAMENTE IGUAL      === (COMPARA VALOR Y TIPO)
+ // ES DIFERENTE               !=  (Compara valores diferentes)
+ // ES ESTRICTAMENTE DIFERENTE !==
+
+let a = "50"
+let b = "50"
+
+let resultado = a!==b
+console.log(resultado)
