@@ -59,6 +59,22 @@
 //MAYOR IGUAL QUE        >=
 // MENOR IGUAL QUE       <=
 
-let a = 20
-let b = 30
-console.log(a<=b)
+// let a = 20
+// let b = 30
+// console.log(a<=b)
+
+/**
+ * OPERADORES LOGICOS
+ * 
+ *  AND (&&)
+ *  OR   (||)
+ */
+
+ let a = 10
+ let b = 20
+ let c = 30
+
+ // Saber si b es mayor que a  y mayor que c
+ let resp = (b<a) || (b>c)
+ console.log(resp)
+
