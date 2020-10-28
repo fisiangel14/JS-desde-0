@@ -83,19 +83,24 @@
  * variable++
  * variable--
  */
-let d = 10
+// let d = 10
 
-//a--
-d++
+// //a--
+// d++
 
-console.log(d)
+// console.log(d)
 
-/**
- * OPERADORES TERNARIOS
+// /**
+//  * OPERADORES TERNARIOS
+//  */
+
+// let a = 5
+// let b = 8
+
+// let c = (b < a) ? "VERDADERO": "FALSO"
+// console.log(c)
+
+/** 
+ * COEERCIO de TIPOS
  */
 
-let a = 5
-let b = 8
-
-let c = (b < a) ? "VERDADERO": "FALSO"
-console.log(c)
