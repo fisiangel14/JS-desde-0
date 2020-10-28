@@ -70,11 +70,32 @@
  *  OR   (||)
  */
 
- let a = 10
- let b = 20
- let c = 30
+//  let a = 10
+//  let b = 20
+//  let c = 30
 
- // Saber si b es mayor que a  y mayor que c
- let resp = (b<a) || (b>c)
- console.log(resp)
+//  // Saber si b es mayor que a  y mayor que c
+//  let resp = (b<a) || (b>c)
+//  console.log(resp)
 
+/**
+ * OPERADORES UNARIOS
+ * variable++
+ * variable--
+ */
+let d = 10
+
+//a--
+d++
+
+console.log(d)
+
+/**
+ * OPERADORES TERNARIOS
+ */
+
+let a = 5
+let b = 8
+
+let c = (b < a) ? "VERDADERO": "FALSO"
+console.log(c)
