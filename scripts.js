@@ -44,8 +44,21 @@
  // ES DIFERENTE               !=  (Compara valores diferentes)
  // ES ESTRICTAMENTE DIFERENTE !==
 
-let a = "50"
-let b = "50"
+// let a = "50"
+// let b = "50"
 
-let resultado = a!==b
-console.log(resultado)
+// let resultado = a!==b
+// console.log(resultado)
+
+/**
+ * OPERADORES DE COMPARACION II
+ */
+
+// MAYOR QUE             >
+// MENOR QUE             <
+//MAYOR IGUAL QUE        >=
+// MENOR IGUAL QUE       <=
+
+let a = 20
+let b = 30
+console.log(a<=b)
