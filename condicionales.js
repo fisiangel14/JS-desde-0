@@ -41,6 +41,17 @@
  * BUCLES   - FOR
  */
 
-for (let i = 0; i <10 ; i++) {
-    console.log(i)
+// for (let i = 0; i <10 ; i++) {
+//     console.log(i)
+// }
+
+/**
+ * Ejercicio
+ */
+
+let texto = "Angel Alegre"
+
+for (let i = 0; i < texto.length; i++) {
+    console.log(texto[i]);
+    
 }
