@@ -24,4 +24,6 @@ function getAllName(firstName, lastName) {
     return `${firstName} ${lastName}`
 }
 
-console.log(getAllName("Angel Eduardo", "Alegre Quispe"))
+let nombreCompleto = getAllName("Angel Eduardo", "Alegre Quispe")
+
+console.log(nombreCompleto)
