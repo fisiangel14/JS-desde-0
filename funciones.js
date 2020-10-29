@@ -29,19 +29,30 @@
 // console.log(nombreCompleto)
 
 /**
- * FUCNION ANONIMA
- */
+//  * FUCNION ANONIMA
+//  */
 
-let sumar = function (a,b,c) {
-    return a + b + c    
-}
+// let sumar = function (a,b,c) {
+//     return a + b + c    
+// }
 
-let resultado = sumar(2,3,4)
-console.log(resultado)
+// let resultado = sumar(2,3,4)
+// console.log(resultado)
+
+// /**
+//  * FUNCION AUTOLLAMADA
+//  */
+// (function (a,b,c) {
+//     console.log(a+b+c)
+// }(2,3,4))
 
 /**
- * FUNCION AUTOLLAMADA
+ * FUNCIONES CON CONSTANTES
+ * la funciones debe declararse con const y no con let
  */
-(function (a,b,c) {
-    console.log(a+b+c)
-}(2,3,4))
+
+const saluda = function (nombre) {
+    console.log(`Hola, ${nombre}`)
+}
+
+console.log(saluda("angel"))
