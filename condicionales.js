@@ -20,19 +20,27 @@
  * CONDICIONALES MULTIPLES - SWITCH
  */
 
-let op = 2
+// let op = 2
 
-switch (op) {
-    case 1:
-        console.log("Esta es una Suma")        
-        break;
-    case 2:
-        console.log("Esta es una Resta")
-        break
-    case 3:
-        console.log("esta es una multiplicacion")
-        break
-    default:
-        console.log("esta es una division")
-        break;
+// switch (op) {
+//     case 1:
+//         console.log("Esta es una Suma")        
+//         break;
+//     case 2:
+//         console.log("Esta es una Resta")
+//         break
+//     case 3:
+//         console.log("esta es una multiplicacion")
+//         break
+//     default:
+//         console.log("esta es una division")
+//         break;
+// }
+
+/** 
+ * BUCLES   - FOR
+ */
+
+for (let i = 0; i <10 ; i++) {
+    console.log(i)
 }
