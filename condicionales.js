@@ -45,13 +45,25 @@
 //     console.log(i)
 // }
 
+// /**
+//  * Ejercicio
+//  */
+
+// let texto = "Angel Alegre"
+
+// for (let i = 0; i < texto.length; i++) {
+//     console.log(texto[i]);
+    
+// }
+
 /**
- * Ejercicio
+ * WHILE --> Mientras
  */
 
-let texto = "Angel Alegre"
+let toy = 10
 
-for (let i = 0; i < texto.length; i++) {
-    console.log(texto[i]);
+while (toy>0) {
+    toy--
+    console.log(`Regalamos 1 juguete. Nos quedan ${toy} juguetes`)
     
 }
