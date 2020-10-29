@@ -20,10 +20,28 @@
  * 
  */
 
-function getAllName(firstName, lastName) {
-    return `${firstName} ${lastName}`
+// function getAllName(firstName, lastName) {
+//     return `${firstName} ${lastName}`
+// }
+
+// let nombreCompleto = getAllName("Angel Eduardo", "Alegre Quispe")
+
+// console.log(nombreCompleto)
+
+/**
+ * FUCNION ANONIMA
+ */
+
+let sumar = function (a,b,c) {
+    return a + b + c    
 }
 
-let nombreCompleto = getAllName("Angel Eduardo", "Alegre Quispe")
+let resultado = sumar(2,3,4)
+console.log(resultado)
 
-console.log(nombreCompleto)
+/**
+ * FUNCION AUTOLLAMADA
+ */
+(function (a,b,c) {
+    console.log(a+b+c)
+}(2,3,4))
