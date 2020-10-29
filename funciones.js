@@ -51,8 +51,31 @@
  * la funciones debe declararse con const y no con let
  */
 
-const saluda = function (nombre) {
-    console.log(`Hola, ${nombre}`)
-}
+// const saluda = function (nombre) {
+//     console.log(`Hola, ${nombre}`)
+// }
 
-console.log(saluda("angel"))
+// console.log(saluda("angel"))
+
+/**
+ * SCOPE  --> ES EL ALCANCE DE LAS VARIBALES EN TODO EL CODIGO
+ */
+
+
+/**
+ * FUNCIONES FLECHA
+ * 
+ *     =>
+ */
+// con mas de 2 paremtros entre parantesis
+const suma = (a,b) => a+b
+
+console.log(suma(5,4))
+
+//con 1 solo parametro se pueden uitar
+const saludar = nombre => `Hola ${nombre}, how are you`
+
+console.log(saludar("Angel"))
+
+const fin = () => console.log(`Se acabo el curso de JS`)
+fin()
