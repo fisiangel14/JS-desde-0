@@ -56,22 +56,40 @@
 // console.log(arrayNuevo)
 // console.log(numeros)
 
-let numeros = [26,23,9,9,8,45,65,42,100,39,20]
+// let numeros = [26,23,9,9,8,45,65,42,100,39,20]
 
-//find --> devuelve un tipo de dato no un array y siempre devuevle el 1er dato
-let dato = numeros.find(num => num%2 ===1)
+// //find --> devuelve un tipo de dato no un array y siempre devuevle el 1er dato
+// let dato = numeros.find(num => num%2 ===1)
 
+// console.log(dato)
+
+// //include   -- devuelve un booleando si se encuentra o no en el array
+// let dato1 = numeros.includes(23) 
+// console.log(dato1)
+
+// //some -- devuelve true o false si encuentra algun dato que cumpla la condicion
+// let dato2 = numeros.some(num => typeof num === "string")
+// console.log(dato2)
+
+// //every -- todos los elementos deben cumplir la condiciom
+// let dato3 = numeros.every(num =>typeof num === "number")
+// console.log(dato3)
+
+/**
+ * Strings - funciones conocidas
+ */
+
+let texto = "Angel Eduardo Alegre Quispe"
+
+//slice -- recorta el array en el rango especificado
+let dato = texto.slice(1,10)
 console.log(dato)
 
-//include   -- devuelve un booleando si se encuentra o no en el array
-let dato1 = numeros.includes(23) 
+//split -- recortar el array segun el indicador que se le pase
+let dato1 = texto.split("e")
 console.log(dato1)
 
-//some -- devuelve true o false si encuentra algun dato que cumpla la condicion
-let dato2 = numeros.some(num => typeof num === "string")
+//search -- pendiente
+//to
+let dato2 = texto.toLocaleLowerCase()
 console.log(dato2)
-
-//every -- todos los elementos deben cumplir la condiciom
-let dato3 = numeros.every(num =>typeof num === "number")
-console.log(dato3)
-
