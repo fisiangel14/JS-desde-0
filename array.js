@@ -24,27 +24,35 @@
  * foreach
  */
 
-let amigos = ["Angel","Miguel","Fernando","Adriana","Luana"]
+// let amigos = ["Angel","Miguel","Fernando","Adriana","Luana"]
 
-// //estructura basica necesita una funcion anonima, con un parametro para recorrer todo el array
-// amigos.forEach(function(amigo){
-//     console.log(amigo)
-// })
+// // //estructura basica necesita una funcion anonima, con un parametro para recorrer todo el array
+// // amigos.forEach(function(amigo){
+// //     console.log(amigo)
+// // })
 
-// //tanbien se puede escribir como una funcion flecha
-// amigos.forEach(amigo => console.log(amigo))
+// // //tanbien se puede escribir como una funcion flecha
+// // amigos.forEach(amigo => console.log(amigo))
 
-// //si se guarda en una variable, nos da undifined
-// //no mdifica el el areglo la funcion flecha, solo sirve para recorrer y hacer operaciones con esos datos
+// // //si se guarda en una variable, nos da undifined
+// // //no mdifica el el areglo la funcion flecha, solo sirve para recorrer y hacer operaciones con esos datos
 
-// let dato = amigos.forEach(amigo => console.log(`hola ${amigo}`))
+// // let dato = amigos.forEach(amigo => console.log(`hola ${amigo}`))
 
+// // console.log(amigos)
+// // console.log(amigos)
+
+
+// //map  --> tanbien recorre pero si se guarda en una varible se puede formar un nuevo array
+
+// let dato = amigos.map(amigo => `hola ${amigo}`)
 // console.log(amigos)
-// console.log(amigos)
+// console.log(dato)
 
+let numeros = [26,23,9,9,8,45,65,42,39,20]
 
-//map  --> tanbien recorre pero si se guarda en una varible se puede formar un nuevo array
+let arrayNuevo = numeros.filter(num => num<=20)
 
-let dato = amigos.map(amigo => `hola ${amigo}`)
-console.log(amigos)
-console.log(dato)
+console.log(arrayNuevo)
+console.log(numeros)
+
