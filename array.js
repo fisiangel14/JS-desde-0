@@ -77,19 +77,39 @@
 
 /**
  * Strings - funciones conocidas
- */
+//  */
 
-let texto = "Angel Eduardo Alegre Quispe"
+// let texto = "Angel Eduardo Alegre Quispe"
 
-//slice -- recorta el array en el rango especificado
-let dato = texto.slice(1,10)
-console.log(dato)
+// //slice -- recorta el array en el rango especificado
+// let dato = texto.slice(1,10)
+// console.log(dato)
 
-//split -- recortar el array segun el indicador que se le pase
-let dato1 = texto.split("e")
-console.log(dato1)
+// //split -- recortar el array segun el indicador que se le pase
+// let dato1 = texto.split("e")
+// console.log(dato1)
 
-//search -- pendiente
-//to
-let dato2 = texto.toLocaleLowerCase()
-console.log(dato2)
+// //search -- pendiente
+// //to
+// let dato2 = texto.toLocaleLowerCase()
+// console.log(dato2)
+
+let alumno = {
+    nombre: "Angel",
+    apellido: "Alegre",
+    edad:  26,
+    suscriptor: false,
+    ciudad: "LIMA"
+}
+//1ra forma de acceder a los valores
+console.log(alumno.edad)
+//2da forma de acceder a los valores
+console.log(alumno["apellido"])
+
+//obtener todos los valores
+let valores = Object.values(alumno)
+console.log(valores)
+
+//obtener los atrivutos
+let atributos = Object.keys(alumno)
+console.log(atributos)
