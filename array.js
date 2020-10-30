@@ -94,22 +94,32 @@
 // let dato2 = texto.toLocaleLowerCase()
 // console.log(dato2)
 
-let alumno = {
-    nombre: "Angel",
-    apellido: "Alegre",
-    edad:  26,
-    suscriptor: false,
-    ciudad: "LIMA"
-}
-//1ra forma de acceder a los valores
-console.log(alumno.edad)
-//2da forma de acceder a los valores
-console.log(alumno["apellido"])
+// let alumno = {
+//     nombre: "Angel",
+//     apellido: "Alegre",
+//     edad:  26,
+//     suscriptor: false,
+//     ciudad: "LIMA"
+// }
+// //1ra forma de acceder a los valores
+// console.log(alumno.edad)
+// //2da forma de acceder a los valores
+// console.log(alumno["apellido"])
 
-//obtener todos los valores
-let valores = Object.values(alumno)
-console.log(valores)
+// //obtener todos los valores
+// let valores = Object.values(alumno)
+// console.log(valores)
 
-//obtener los atrivutos
-let atributos = Object.keys(alumno)
-console.log(atributos)
+// //obtener los atrivutos
+// let atributos = Object.keys(alumno)
+// console.log(atributos)
+
+/**
+ * math y date
+ */
+
+const valor = Math.random()
+console.log(valor)
+
+const fecha = new Date()
+console.log(fecha.getFullYear())
