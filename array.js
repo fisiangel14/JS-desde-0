@@ -26,5 +26,18 @@
 
 let amigos = ["Angel","Miguel","Fernando","Adriana","Luana"]
 
+//estructura basica necesita una funcion anonima, con un parametro para recorrer todo el array
+amigos.forEach(function(amigo){
+    console.log(amigo)
+})
+
+//tanbien se puede escribir como una funcion flecha
 amigos.forEach(amigo => console.log(amigo))
 
+//si se guarda en una variable, nos da undifined
+//no mdifica el el areglo la funcion flecha, solo sirve para recorrer y hacer operaciones con esos datos
+
+let dato = amigos.forEach(amigo => console.log(`hola ${amigo}`))
+
+console.log(amigos)
+console.log(amigos)
